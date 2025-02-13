@@ -1,0 +1,33 @@
+do it everything in the terminal of the computer which is located in the downside
+
+
+first step to import file from git
+  copy the url of the repository
+  and then in vs code 
+  use "git clone url"
+example : git clone https://github.com/DEVA266/just-example.git
+
+
+to check the status of the file
+  enter " git status "
+
+
+to add the new file created to the git
+  use " git add file_name (with extention)"
+  now the file is added only
+example : git add text2.text
+
+
+// now the file is added 
+and then to commit the changes
+  use " git commit -m " some msg " "
+  now the file is added only in the folder in your computer
+  not in your online respository
+example : git commit -m " text2.txt file is added "
+
+
+// to add the file to your respository
+  use " git push origin branch-name "
+  now the file is added to your repository
+  youy can able to acces in your online cloud
+example : git push origin main
