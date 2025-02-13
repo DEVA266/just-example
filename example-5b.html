@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Menu</title>
+  </head>
+
+  <body>
+    <script>
+      let coffee=0;
+      let Bagels=0;
+      let soup=0;
+      let total = 0;
+      function tot(coffee,Bagels,soup){
+        total = coffee*5 + Bagels*3 + soup*9 ;
+        console.log("your total bill amount without tax is : ",total);
+        aftertax= total + total*10/100;
+        console.log("your total amount after tax is : ",aftertax);
+      }
+    </script>
+    <center>
+      <h1> 
+        welcome to our Restaurant
+      </h1>
+      <br>
+      <h3>
+        what would you like to drink
+      </h3><br>
+      <button onclick="coffee += 1" > Coffee</button> <h4>$5.00</h4>
+      
+      <button onclick="Bagels +=1" > Bagels</button> <h4>$3.00</h4>
+
+      <button onclick="soup +=1" > soup</button> <h4>$9.00</h4>
+
+      <button onclick="tot(coffee,Bagels,soup)" >Total Amount</button>
+    </center>
+
+    
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>cart quantity
+        </title>
+        <script src="cart.js"></script>
+    </head>
+
+    <body>
+        <p>
+            Cart Quantity Deatils
+        </p>
+        <br>
+        <button onclick="quantity(cartquantity)">
+            Show Quantity
+        </button>
+        <button onclick="
+            cartquantity += 1;
+            console.log('Cart Quantity : ',cartquantity);
+        ">
+            Add to cart
+        </button>
+        <button onclick="
+            cartquantity += 2;
+            console.log('Cart Quantity : ',cartquantity);
+        ">
+            +2
+        </button>
+        <button onclick="
+            cartquantity +=3;
+            console.log('Cart Quantity : ',cartquantity);
+        ">
+            +3
+        </button>
+        <button onclick="
+            cartquantity = 0;
+            console.log('Cart Quantity : ',cartquantity);
+        ">
+            Reset Cart
+        </button>
+    </body>
+
+</html>
